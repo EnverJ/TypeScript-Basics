@@ -5,7 +5,7 @@ function throwError(msg: string): never {
   throw new Error(msg);
 }
 
-//throwError("this is a never type");
+// throwError("this is a never type");
 
 function displayMsg(): never {
   while (true) {
