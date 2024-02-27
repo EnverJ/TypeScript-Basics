@@ -3,6 +3,7 @@
 // Type annotations
 var fName; // Type Annotations
 fName = "enver";
+var fName2 = "Sea";
 var num;
 num = 4;
 var n = 40;
@@ -13,15 +14,22 @@ var isActive = true;
 // null and undefined
 var city = null;
 var country = undefined;
+console.log("-----any--------");
 // any type: any type of data can be declared in this variable
 var value = 80;
 value = "never";
 value = true;
+console.log(value);
 // void: function dose not return any value:
 function printHello() {
     // return type: void --CT (compile time)
     console.log("Hello");
 }
+function Hello(a, b) {
+    return a + b;
+}
+var a = Hello(9, 19);
+console.log(a);
 function getNumber() {
     // return type is number
     return 123;
@@ -39,4 +47,4 @@ addition(23, 32);
 function add1(a, b) {
     return a + b;
 }
-console.log(add1(4, 4));
+console.log(add1(4, 14));

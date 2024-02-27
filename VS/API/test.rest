@@ -1,0 +1,10 @@
+GET https://reqres.in/api/users?page=2
+
+GET https://api.nasa.gov/planetary/apod?api_key=W6B3Vr6t9UnISw4sQLe9yffbVjmJbZwGnaxCgCa2
+
+
+GET https://api.nasa.gov/planetary/apod
+
+
+# https://medium.com/refinitiv-developer-community/how-to-test-rest-api-with-visual-studio-code-rest-client-extensions-9f2e061d0299
+GET https://api.refinitiv.com/data/historical-pricing/v1/views/interday-summaries/FB.O HTTP/1.1
